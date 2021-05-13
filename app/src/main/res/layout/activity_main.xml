@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C6363"
+    tools:context=".MainActivity"
+    tools:ignore="MissingConstraints">
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/button_shape"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/african"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/african"
+        app:layout_constraintCircleAngle="90"
+        app:layout_constraintCircleRadius="130dp"
+        app:layout_constraintCircle="@id/button"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <ImageView
+        android:id="@+id/pop"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pop"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="130dp"
+        app:layout_constraintCircle="@id/button"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <ImageView
+        android:id="@+id/surf"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/surf"
+        app:layout_constraintCircleAngle="270"
+        app:layout_constraintCircleRadius="130dp"
+        app:layout_constraintCircle="@id/button"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="138dp" />
+    <ImageView
+        android:id="@+id/rap"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/rap"
+        app:layout_constraintCircleAngle="360"
+        app:layout_constraintCircleRadius="130dp"
+        app:layout_constraintCircle="@id/button"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="138dp" />
+    <ImageView
+        android:id="@+id/vocal"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/vocal"
+        app:layout_constraintCircleAngle="135"
+        app:layout_constraintCircleRadius="130dp"
+        app:layout_constraintCircle="@id/button"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="138dp" />
+    <ImageView
+        android:id="@+id/axe"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/comedy"
+        app:layout_constraintCircleAngle="45"
+        app:layout_constraintCircleRadius="130dp"
+        app:layout_constraintCircle="@id/button"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="138dp" />
+    <ImageView
+        android:id="@+id/fitness"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/fitness"
+        app:layout_constraintCircleAngle="315"
+        app:layout_constraintCircleRadius="130dp"
+        app:layout_constraintCircle="@id/button"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="138dp"/>
+    <ImageView
+        android:id="@+id/newAge"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:src="@drawable/glamrock"
+        app:layout_constraintCircleAngle="225"
+        app:layout_constraintCircleRadius="130dp"
+        app:layout_constraintCircle="@id/button"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="138dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
